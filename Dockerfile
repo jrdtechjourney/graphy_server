@@ -1,4 +1,5 @@
-FROM node:hydrogen-buster
+FROM node:18.20.8-bookworm-slim
+
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
